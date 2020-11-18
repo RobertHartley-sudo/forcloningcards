@@ -1,0 +1,681 @@
+<!DOCTYPE html><html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Mr. Robert's Instant UNO!</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<P>Choose your images to create an instant set of UNO-style cards!
+<br>
+<button onclick="blackColor()">Black Stars</button> <br>
+    <button onclick="multiColored()">Colored Stars</button><br> 
+    
+<input type='file' accept='image/*' onchange='openFile(event)' multiple> 
+    </P>
+    <div id='red'>
+
+    <div class="grid-container">
+        <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='output0' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output1' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output2' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+      
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='output3' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output4' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output5' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='output6' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output7' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='output8' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+</div>
+    
+    </div>
+    
+   <div class="page-break"></div>    
+    
+    <div id='yellow'>
+
+    <div class="grid-container">
+        <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='yellow0' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow1' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow2' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+      
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='yellow3' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow4' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow5' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='yellow6' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow7' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='yellow8' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+</div>
+    
+    </div>
+    
+     <div class="page-break"></div>  
+    
+    <div id='green'>
+
+    <div class="grid-container">
+        <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='green0' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green1' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green2' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+      
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='green3' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green4' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green5' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='green6' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green7' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='green8' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+</div>
+    
+    </div>
+    
+     <div class="page-break"></div>
+    
+    
+    <div id='blue'>
+
+    <div class="grid-container">
+        <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='blue0' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue1' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue2' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+      
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='blue3' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue4' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue5' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+                <div class="grid-item-border-top-left">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">★</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img id='blue6' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue7' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img id='blue8' width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">★</div>  
+        
+</div>
+    
+    </div>
+    
+    
+    
+       <div class="page-break"></div>
+    
+    <div class="grid-container">
+        <div class="grid-item-border-top-left"><div id="add-cards">+2</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top"><div id="add-cards">+2</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top"><div id="add-cards">+4</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right"><div id="add-cards">+2</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right"><div id="add-cards">+2</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right"><div id="add-cards">+4</div></div>  
+      
+          <div class="grid-item-border-top-left"><div id="add-cards">+4</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right"><div id="add-cards">+4</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">R</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">R</div>  
+        
+        
+                <div class="grid-item-border-top-left">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">S</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">S</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="skip.png" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="skip.png" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">R</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">S</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">S</div>  
+
+    </div>
+
+    
+    
+   <div class="page-break"></div>
+    
+    <div class="grid-container">
+        <div class="grid-item-border-top-left"><div id="add-cards">+2</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top"><div id="add-cards">+2</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top"><div id="add-cards">+4</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right"><div id="add-cards">+2</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right"><div id="add-cards">+2</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right"><div id="add-cards">+4</div></div>  
+      
+          <div class="grid-item-border-top-left"><div id="add-cards">+4</div></div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="magic.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right"><div id="add-cards">+4</div></div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">R</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">R</div>  
+        
+        
+                <div class="grid-item-border-top-left">R</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">S</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">S</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="reverse.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="skip.png" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="skip.png" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">R</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">S</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">S</div>  
+
+    </div>
+
+    
+      <div class="page-break"></div>
+    
+    <div class="grid-container">
+               <div class="grid-item-border-top-left">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div> 
+                        <div class="grid-item-border-top-left">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div>            
+      <div class="grid-item-border-top-left">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div> 
+  <div class="grid-item-border-top">M</div>
+  <div class="grid-item-border-top"></div>
+  <div class="grid-item-border-top-right"></div>  
+   <div class="grid-item-border-left"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div> 
+  <div class="grid-item"></div>
+  <div class="grid-item"><img src="rainbow.jpeg" width="200" height="200"></div>
+  <div class="grid-item-border-right"></div>  
+   <div class="grid-item-border-bottom-left"></div>
+  <div class="grid-item-border-bottom"></div>
+        <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div>  
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom"></div>
+  <div class="grid-item-border-bottom-right">M</div> 
+        
+</div>
+    
+  
+    
+
+   
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

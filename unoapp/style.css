@@ -1,0 +1,128 @@
+@media all {
+.page-break { display: none; }
+}
+
+@media print {
+.page-break { display: block; page-break-before: always; }
+}
+
+p { font-size: 10;
+    text-align: left;
+  }
+h1 {
+    font-weight: bold;
+    text-align: center;
+  }
+circle-span{                
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+      display:inline-block;
+      margin: 10px;
+      border-radius: 60px;    
+      background-color:black;
+      color:white;
+      font-size: 1.8em;
+      padding: 10px 20px;    
+  }    
+
+span{
+    font-family: fantasy
+ }
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 20px 200px 30px 20px 200px 30px 20px 200px 30px ;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  padding: 25px;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-item-border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-item-border-top-left {
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-item-border-top-right {
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-item-border-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+.grid-item-border-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+.grid-item-border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+.grid-item-border-bottom-left {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-item-border-bottom-right {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 25px;
+  text-align: left;
+}
+
+#add-cards{
+      font-size: 20px;
+      }
+
+#red{
+    color: red;
+}
+
+#yellow{
+    color: 	#9b870c;
+}
+
+#black{
+    color: black;
+}
+
+
+#green{
+    color: green;
+}
+
+#blue{
+    color: blue;
+}
+
+.rule{
+  background: solid rgba(0, 0, 0, 0.8);;
+}
+
